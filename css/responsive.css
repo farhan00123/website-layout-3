@@ -9,6 +9,10 @@
         padding-top: 20%;
     }
 
+    .logo .brand-dot {
+        padding-top: 20px;
+    }
+
     .menu-container .menu{
         column-gap: 30px;
         justify-content: start;
