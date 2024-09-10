@@ -1,0 +1,79 @@
+@media (max-width: 768px) {
+    .head {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logo .brand{
+        padding-top: 20%;
+    }
+
+    .menu-container .menu{
+        column-gap: 30px;
+        justify-content: start;
+    }
+
+    .menu-container .menu li {
+        padding: 10px 0;
+        
+    }
+
+    .body .body-content {
+        text-align: center;
+    }
+
+    .body {
+        flex-direction: column-reverse;
+    }
+
+    .profile-img {
+        padding-bottom: 10%;
+    }
+
+    .profile-img .img {
+        height: 70%;
+        width: 70%;
+    }
+
+    .body-text .button-container{
+        justify-content: center;
+    }
+
+    .footer-contant{
+        display: flex;
+    }
+
+    .footer .footer-contant div h1{
+        font-size: 3rem;
+        color: aliceblue;
+    }
+    
+    .footer .footer-contant div p{
+        font-size: small;
+    }
+    
+}
+
+@media(max-width: 430px) {
+    .menu-container .menu{
+        column-gap: 30px;
+        justify-content: start;
+    }
+
+    .body .body-content .body-text .hello {
+        font-size: 3.2rem;
+    }
+
+    .body .body-content .body-text .name {
+        font-size: 2.7rem;
+    }
+
+    .body .body-content .body-text p {
+        line-height: 28.5px;
+    }
+
+    .body-container .body-text .button-container .download {
+        padding: 9.5px 15px;
+    }
+}
